@@ -1,0 +1,39 @@
+#topBtn{
+    width: 200px;
+    background-color: red;
+
+}  
+#secondBtn{
+    
+}        
+.topH1{
+    color: rgb(34,170,119);
+}
+
+.secondH1{
+    color: #00f;
+}
+
+
+
+a[href="/day1.txt"]{
+    background-color:yellow
+}
+
+
+
+.descendant p{
+    background-color:yellow;
+}
+
+.child > p{
+    background-color:green;
+}
+
+.adjacent + p{
+    background-color: darkblue
+}
+
+.gs ~ p{
+    background-color: red
+}
